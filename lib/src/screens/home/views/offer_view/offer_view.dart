@@ -18,7 +18,7 @@ class OfferView extends StatelessWidget {
           IconButton(
             icon: const Icon(Icons.shopping_cart),
             onPressed: () {
-              Navigator.pushNamed(context, PaymentScreen.routeName);
+              Navigator.pushNamed(context, PaymentListScreen.routeName);
 
             },
           ),

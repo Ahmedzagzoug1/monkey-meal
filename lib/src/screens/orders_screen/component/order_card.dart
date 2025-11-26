@@ -29,7 +29,7 @@ class OrderCard extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(12.0),
               child: Image.network(
-orderModel.imgUrl,
+orderModel.itemCover,
                 width: Helper.getScreenWidth(context)*0.2,
                 height: Helper.getScreenWidth(context)*0.2,
                 fit: BoxFit.cover,
@@ -44,7 +44,7 @@ orderModel.imgUrl,
                 children: [
                   // Restaurant name
                    Text(
-                    orderModel.orderName,
+                    orderModel.itemName,
                     style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:monkey_meal_project/src/screens/food_details/component/CustomizationSection.dart';
 import 'package:monkey_meal_project/src/screens/food_details/component/description_section.dart';
 import 'package:monkey_meal_project/src/screens/food_details/component/item_header.dart';
 import 'package:monkey_meal_project/src/screens/food_details/component/portion_counter_section.dart';
@@ -58,10 +57,10 @@ class DetailsCard extends StatelessWidget {
               const SizedBox(height: 24),
 
               // Customization Section
-              CustomizationSection(
+      /*        CustomizationSection(
                 selectedSize: selectedSize,
                 selectedIngredients: selectedIngredients,
-              ),
+              ),*/
 
               const SizedBox(height: 24),
 

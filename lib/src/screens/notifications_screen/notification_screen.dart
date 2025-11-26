@@ -20,7 +20,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
         IconButton(
           icon: const Icon(Icons.shopping_cart),
           onPressed: () {
-            Navigator.pushNamed(context, PaymentScreen.routeName);
+            Navigator.pushNamed(context, PaymentListScreen.routeName);
 
           },
         ),

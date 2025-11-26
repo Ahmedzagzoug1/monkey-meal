@@ -24,7 +24,7 @@ class MainView extends StatelessWidget {
             iconColor: AppColor.primary,
             onCartPressed: () {
               // Handle cart button press
-              Navigator.pushNamed(context, PaymentScreen.routeName);
+              Navigator.pushNamed(context, PaymentListScreen.routeName);
             },
           ),
           SizedBox(height: 14,),

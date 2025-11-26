@@ -19,7 +19,7 @@ class MoreView extends StatelessWidget {
         actions: [IconButton(
           icon: const Icon(Icons.shopping_cart),
           onPressed: () {
-Navigator.pushNamed(context, PaymentScreen.routeName);
+Navigator.pushNamed(context, PaymentListScreen.routeName);
                },
         )],),
       body: ListView(
@@ -31,7 +31,7 @@ Navigator.pushNamed(context, PaymentScreen.routeName);
             title: 'Payment Details',
 onTap:(){
 
-              Navigator.pushNamed(context,PaymentScreen.routeName
+              Navigator.pushNamed(context,PaymentListScreen.routeName
               );
               },
           ),

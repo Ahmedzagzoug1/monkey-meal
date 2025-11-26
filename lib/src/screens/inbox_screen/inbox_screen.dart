@@ -23,7 +23,7 @@ class InboxScreen extends StatelessWidget {
           actions: [IconButton(
             icon: const Icon(Icons.shopping_cart),
             onPressed: () {
-              Navigator.pushNamed(context, PaymentScreen.routeName);
+              Navigator.pushNamed(context, PaymentListScreen.routeName);
             },
           )],),
         bottomNavigationBar:

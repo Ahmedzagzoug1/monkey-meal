@@ -30,7 +30,7 @@ class _OrderScreenState extends State<OrderScreen> {
       body: ListView(
 
             children: [
-              OrderCard(orderModel: OrderModel.orders[0],),
+             // OrderCard(orderModel: OrderModel.orders[0],),
           SizedBox(height: 8,),
           OrderList(),
               SizedBox(height: 8,),
