@@ -5,15 +5,7 @@ It provides a smooth and fast experience for browsing meals and placing food ord
 
 ---
 
-## 📱 Screenshots
-| Splash | Login | Home |
-|--------|-------|------|
-| ![](screenshots/splash.png) | ![](screenshots/login.png) | ![](screenshots/home.png) |
 
-| Cart | Profile |
-|------|---------|
-| ![](screenshots/view_menu.png) | ![](screenshots/profile.png) |
----
 
 ## ✨ Features
 
@@ -35,7 +27,7 @@ It provides a smooth and fast experience for browsing meals and placing food ord
 ---
 
 ## 📂 Project Structure
-
+```ymal
 monkey-meal/
 ├── android/
 ├── ios/
@@ -49,10 +41,7 @@ monkey-meal/
 ├── test/
 ├── pubspec.yaml
 └── README.md
-
-
-
----
+```
 
 ## 🚀 Getting Started
 
