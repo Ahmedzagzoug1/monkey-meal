@@ -6,6 +6,11 @@ It provides a smooth and fast experience for browsing meals and placing food ord
 ---
 
 
+<p align="center">
+  <img src="screenshots/signup.jpg" width="180" />
+  <img src="screenshots/details_screen.jpg" width="180" />
+  <img src="screenshots/order.jpg" width="180" />
+</p>
 
 ## ✨ Features
 
